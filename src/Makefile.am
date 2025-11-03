@@ -1,4 +1,4 @@
-AM_CPPFLAGS   = @MACHINE@ -DBIG_MEM -DNDEBUG
+AM_CPPFLAGS   = @MACHINE@ -DBIG_MEM -DNDEBUG -std=gnu89
 EXTRA_DIST    = bilf.c bsd.c linux.c msdos.c vms.c sysv.c turboc.c
 
 bin_PROGRAMS  = zoo
